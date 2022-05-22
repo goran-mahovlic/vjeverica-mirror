@@ -1,0 +1,331 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L vjeverica_logo:LOGO #G1
+U 1 1 626D2028
+P 6225 7100
+F 0 "#G1" H 6225 6464 60  0001 C CNN
+F 1 "LOGO" H 6225 7736 60  0001 C CNN
+F 2 "" H 6225 7100 50  0001 C CNN
+F 3 "" H 6225 7100 50  0001 C CNN
+	1    6225 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 626D4046
+P 1925 2650
+F 0 "BT1" H 2043 2746 50  0000 L CNN
+F 1 "Battery_Cell" H 2043 2655 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_106_1x20mm" V 1925 2710 50  0001 C CNN
+F 3 "~" V 1925 2710 50  0001 C CNN
+	1    1925 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 626D4BD8
+P 2925 2150
+F 0 "R1" V 2718 2150 50  0000 C CNN
+F 1 "3R3" V 2809 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2855 2150 50  0001 C CNN
+F 3 "~" H 2925 2150 50  0001 C CNN
+	1    2925 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 626D7061
+P 3925 2550
+F 0 "D3" V 3964 2432 50  0000 R CNN
+F 1 "LED" V 3873 2432 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3925 2550 50  0001 C CNN
+F 3 "~" H 3925 2550 50  0001 C CNN
+	1    3925 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 626D73A8
+P 4250 2550
+F 0 "D4" V 4289 2432 50  0000 R CNN
+F 1 "LED" V 4198 2432 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 2550 50  0001 C CNN
+F 3 "~" H 4250 2550 50  0001 C CNN
+	1    4250 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 626D7CAB
+P 4600 2550
+F 0 "D5" V 4639 2432 50  0000 R CNN
+F 1 "LED" V 4548 2432 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4600 2550 50  0001 C CNN
+F 3 "~" H 4600 2550 50  0001 C CNN
+	1    4600 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 626D8088
+P 4925 2550
+F 0 "D6" V 4964 2432 50  0000 R CNN
+F 1 "LED" V 4873 2432 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4925 2550 50  0001 C CNN
+F 3 "~" H 4925 2550 50  0001 C CNN
+	1    4925 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 626D845D
+P 5275 2550
+F 0 "D7" V 5314 2432 50  0000 R CNN
+F 1 "LED" V 5223 2432 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5275 2550 50  0001 C CNN
+F 3 "~" H 5275 2550 50  0001 C CNN
+	1    5275 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D8
+U 1 1 626D893A
+P 5600 2550
+F 0 "D8" V 5639 2432 50  0000 R CNN
+F 1 "LED" V 5548 2432 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5600 2550 50  0001 C CNN
+F 3 "~" H 5600 2550 50  0001 C CNN
+	1    5600 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D9
+U 1 1 626D8DDD
+P 5925 2550
+F 0 "D9" V 5964 2432 50  0000 R CNN
+F 1 "LED" V 5873 2432 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5925 2550 50  0001 C CNN
+F 3 "~" H 5925 2550 50  0001 C CNN
+	1    5925 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D10
+U 1 1 626D9248
+P 6250 2550
+F 0 "D10" V 6289 2432 50  0000 R CNN
+F 1 "LED" V 6198 2432 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 2550 50  0001 C CNN
+F 3 "~" H 6250 2550 50  0001 C CNN
+	1    6250 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D11
+U 1 1 626D9C2D
+P 6575 2550
+F 0 "D11" V 6614 2432 50  0000 R CNN
+F 1 "LED" V 6523 2432 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6575 2550 50  0001 C CNN
+F 3 "~" H 6575 2550 50  0001 C CNN
+	1    6575 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D12
+U 1 1 626DA13F
+P 6925 2550
+F 0 "D12" V 6964 2432 50  0000 R CNN
+F 1 "LED" V 6873 2432 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6925 2550 50  0001 C CNN
+F 3 "~" H 6925 2550 50  0001 C CNN
+	1    6925 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3075 2150 3250 2150
+Wire Wire Line
+	6925 2150 6925 2400
+Wire Wire Line
+	6575 2400 6575 2150
+Connection ~ 6575 2150
+Wire Wire Line
+	6575 2150 6925 2150
+Wire Wire Line
+	6250 2400 6250 2150
+Connection ~ 6250 2150
+Wire Wire Line
+	6250 2150 6575 2150
+Wire Wire Line
+	5925 2400 5925 2150
+Connection ~ 5925 2150
+Wire Wire Line
+	5925 2150 6250 2150
+Wire Wire Line
+	5600 2400 5600 2150
+Connection ~ 5600 2150
+Wire Wire Line
+	5600 2150 5925 2150
+Wire Wire Line
+	5275 2400 5275 2150
+Connection ~ 5275 2150
+Wire Wire Line
+	5275 2150 5600 2150
+Wire Wire Line
+	4925 2400 4925 2150
+Connection ~ 4925 2150
+Wire Wire Line
+	4925 2150 5275 2150
+Wire Wire Line
+	4600 2400 4600 2150
+Connection ~ 4600 2150
+Wire Wire Line
+	4600 2150 4925 2150
+Wire Wire Line
+	4250 2400 4250 2150
+Connection ~ 4250 2150
+Wire Wire Line
+	4250 2150 4600 2150
+Wire Wire Line
+	3925 2400 3925 2150
+Connection ~ 3925 2150
+Wire Wire Line
+	3925 2150 4250 2150
+Wire Wire Line
+	3575 2400 3575 2150
+Connection ~ 3575 2150
+Wire Wire Line
+	3575 2150 3925 2150
+Wire Wire Line
+	3250 2400 3250 2150
+Connection ~ 3250 2150
+Wire Wire Line
+	3250 2150 3575 2150
+Wire Wire Line
+	6925 3025 6925 2700
+Wire Wire Line
+	6575 2700 6575 3025
+Connection ~ 6575 3025
+Wire Wire Line
+	6575 3025 6925 3025
+Wire Wire Line
+	6250 2700 6250 3025
+Connection ~ 6250 3025
+Wire Wire Line
+	6250 3025 6575 3025
+Wire Wire Line
+	5925 2700 5925 3025
+Connection ~ 5925 3025
+Wire Wire Line
+	5925 3025 6250 3025
+Wire Wire Line
+	5600 2700 5600 3025
+Connection ~ 5600 3025
+Wire Wire Line
+	5600 3025 5925 3025
+Wire Wire Line
+	5275 2700 5275 3025
+Connection ~ 5275 3025
+Wire Wire Line
+	5275 3025 5600 3025
+Wire Wire Line
+	4925 2700 4925 3025
+Connection ~ 4925 3025
+Wire Wire Line
+	4925 3025 5275 3025
+Wire Wire Line
+	4600 2700 4600 3025
+Connection ~ 4600 3025
+Wire Wire Line
+	4600 3025 4925 3025
+Wire Wire Line
+	4250 2700 4250 3025
+Connection ~ 4250 3025
+Wire Wire Line
+	4250 3025 4600 3025
+Wire Wire Line
+	3925 2700 3925 3025
+Connection ~ 3925 3025
+Wire Wire Line
+	3925 3025 4250 3025
+Wire Wire Line
+	3575 2700 3575 3025
+Connection ~ 3575 3025
+Wire Wire Line
+	3575 3025 3925 3025
+Wire Wire Line
+	3250 2700 3250 3025
+Connection ~ 3250 3025
+Wire Wire Line
+	3250 3025 3575 3025
+$Comp
+L Switch:SW_Push SW1
+U 1 1 626EB3A7
+P 2450 2150
+F 0 "SW1" H 2450 2435 50  0000 C CNN
+F 1 "SW_Push" H 2450 2344 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 2450 2350 50  0001 C CNN
+F 3 "~" H 2450 2350 50  0001 C CNN
+	1    2450 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2775 2150 2650 2150
+Wire Wire Line
+	2250 2150 1925 2150
+Wire Wire Line
+	1925 2150 1925 2450
+Wire Wire Line
+	1925 2750 1925 3025
+Wire Wire Line
+	1925 3025 3250 3025
+$Comp
+L Device:LED D2
+U 1 1 626D6B5A
+P 3575 2550
+F 0 "D2" V 3614 2432 50  0000 R CNN
+F 1 "LED" V 3523 2432 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3575 2550 50  0001 C CNN
+F 3 "~" H 3575 2550 50  0001 C CNN
+	1    3575 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 626D60D5
+P 3250 2550
+F 0 "D1" V 3289 2432 50  0000 R CNN
+F 1 "LED" V 3198 2432 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3250 2550 50  0001 C CNN
+F 3 "~" H 3250 2550 50  0001 C CNN
+	1    3250 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6272DB4E
+P 4925 3150
+F 0 "#PWR?" H 4925 2900 50  0001 C CNN
+F 1 "GND" H 4930 2977 50  0000 C CNN
+F 2 "" H 4925 3150 50  0001 C CNN
+F 3 "" H 4925 3150 50  0001 C CNN
+	1    4925 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4925 3150 4925 3025
+$EndSCHEMATC
